@@ -4,34 +4,34 @@
 Implemented the following CPU scheduling algorithms in C++ with arrival time considerations: <br>
 <br>
 
-First Come First Served (FCFS) <br>
-Shortest Job First (SJF) <br>
-Round Robin (RR) <br>
-Shortest Job Remaining First (SJRF) <br>
+* First Come First Served (FCFS) <br>
+* Shortest Job First (SJF) <br>
+* Round Robin (RR) <br>
+* Shortest Job Remaining First (SJRF) <br>
 <br>
 Key features of the implementation include: <br>
 
-Incorporation of Arrival Time <br>
-Random generation of process data <br>
-Tabular representation of individual process metrics such as Turnaround Time and Waiting Time <br>
-Calculation of Average Turnaround Time and Average Waiting Time <br>
+* Incorporation of Arrival Time <br>
+* Random generation of process data <br>
+* Tabular representation of individual process metrics such as Turnaround Time and Waiting Time <br>
+* Calculation of Average Turnaround Time and Average Waiting Time <br>
 <br>
-First Come First Served (FCFS) <br>
+## First Come First Served (FCFS) <br>
 
 In this non-preemptive scheduling algorithm, processes are executed in the order they arrive. The process with the earliest arrival time is given priority and executed first.<br>
 <br>
 
-Shortest Job First (SJF) <br>
+## Shortest Job First (SJF) <br>
 
 This non-preemptive algorithm prioritizes processes based on their burst time, which indicates the CPU time required for execution. Processes are sorted by arrival time and then enqueued. The process with the shortest burst time is executed next.<br>
 <br>
 
-Round Robin (RR) <br>
+## Round Robin (RR) <br>
 
 This preemptive algorithm ensures minimal process starvation by executing processes in a round-robin fashion with a specified time quantum. After a process is executed for the given time quantum, it is preempted and the next process is executed.<br>
 <br>
 
-Shortest Job Remaining First (SJRF) <br>
+## Shortest Job Remaining First (SJRF) <br>
 
 This preemptive variant of SJF prioritizes processes based on remaining burst time. If a new process arrives with a burst time shorter than the current executing process, the CPU preempts the current process and switches to the new one.<br>
 
