@@ -16,6 +16,7 @@ Key features of the implementation include: <br>
 * Tabular representation of individual process metrics such as Turnaround Time and Waiting Time <br>
 * Calculation of Average Turnaround Time and Average Waiting Time <br>
 <br>
+
 ## First Come First Served (FCFS) <br>
 
 In this non-preemptive scheduling algorithm, processes are executed in the order they arrive. The process with the earliest arrival time is given priority and executed first.<br>
